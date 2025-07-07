@@ -27,15 +27,17 @@ This project is a machine learning pipeline for predicting whether a person has 
    - 80% training, 20% testing
 
 3. **Model Used**:
-   - RandomForestClassifier from scikit-learn
+   - RandomForestClassifier from scikit-learn (diabetes)
+   - GradientBoostingClassifier from sklearn (diabetes(1))
 
 4. **Evaluation**:
-   - Accuracy score
+   - Accuracy score 74%(diabetes) and 76%(diabetes(1))
    - Classification report (Precision, Recall, F1)
    - Confusion matrix heatmap
 
 5. **Single Patient Prediction**:
    - Manually input values to predict diabetes outcome
+   - And Check the probability score at diabetes(1)
 
 ## 🛠️ How to Run (Google Colab)
 1. Upload `diabetes.csv` file using:
